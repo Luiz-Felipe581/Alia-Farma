@@ -1,0 +1,356 @@
+{
+  "seq": {
+    "users": 1,
+    "categories": 5,
+    "products": 22,
+    "orders": 4,
+    "banners": 4
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "Administrador",
+      "email": "admin@aliafarma.com",
+      "password": "$2a$10$EW9pcE7dydKPIFGBN0pvx.L3bCgipFtM.jkaGycmWp94K0DSnsj8i",
+      "role": "admin"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Medicamentos"
+    },
+    {
+      "id": 2,
+      "name": "Vitaminas"
+    },
+    {
+      "id": 3,
+      "name": "Mamãe e bebê"
+    },
+    {
+      "id": 4,
+      "name": "Beleza"
+    },
+    {
+      "id": 5,
+      "name": "Higiene pessoal"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Dipirona 1g, 20 comprimidos",
+      "description": "Analgésico e antitérmico.",
+      "price": 14.9,
+      "stock": 80,
+      "emoji": "💊",
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "name": "Ibuprofeno 400mg, 20 cápsulas",
+      "description": "Anti-inflamatório para dor e febre.",
+      "price": 22.5,
+      "stock": 59,
+      "emoji": "💊",
+      "category_id": 1
+    },
+    {
+      "id": 3,
+      "name": "Loratadina 10mg, 12 comprimidos",
+      "description": "Antialérgico de uso diário.",
+      "price": 18.4,
+      "stock": 50,
+      "emoji": "💊",
+      "category_id": 1
+    },
+    {
+      "id": 4,
+      "name": "Soro fisiológico 500ml",
+      "description": "Higiene nasal e ocular.",
+      "price": 9.9,
+      "stock": 98,
+      "emoji": "🧴",
+      "category_id": 1
+    },
+    {
+      "id": 5,
+      "name": "Vitamina D 2000UI, 60 cápsulas",
+      "description": "Suplemento de vitamina D.",
+      "price": 39.9,
+      "stock": 40,
+      "emoji": "🌤️",
+      "category_id": 2
+    },
+    {
+      "id": 6,
+      "name": "Vitamina C 1g, 30 comprimidos",
+      "description": "Efervescente sabor laranja.",
+      "price": 24.9,
+      "stock": 70,
+      "emoji": "🍊",
+      "category_id": 2
+    },
+    {
+      "id": 7,
+      "name": "Ômega 3, 120 cápsulas",
+      "description": "Suplemento de óleo de peixe.",
+      "price": 79.9,
+      "stock": 30,
+      "emoji": "🐟",
+      "category_id": 2
+    },
+    {
+      "id": 8,
+      "name": "Multivitamínico, 90 cápsulas",
+      "description": "Complexo de vitaminas e minerais.",
+      "price": 54.9,
+      "stock": 45,
+      "emoji": "💚",
+      "category_id": 2
+    },
+    {
+      "id": 9,
+      "name": "Fralda calça XG, 80 unidades",
+      "description": "Proteção acolchoada.",
+      "price": 119.9,
+      "stock": 25,
+      "emoji": "👶",
+      "category_id": 3
+    },
+    {
+      "id": 10,
+      "name": "Lenço umedecido, 100 unidades",
+      "description": "Sem álcool, para pele sensível.",
+      "price": 16.9,
+      "stock": 90,
+      "emoji": "🧻",
+      "category_id": 3
+    },
+    {
+      "id": 11,
+      "name": "Pomada para assaduras 45g",
+      "description": "Protege e acalma a pele do bebê.",
+      "price": 21.5,
+      "stock": 55,
+      "emoji": "🧸",
+      "category_id": 3
+    },
+    {
+      "id": 12,
+      "name": "Hidratante corporal 473ml",
+      "description": "Pele seca a extra seca.",
+      "price": 89.9,
+      "stock": 35,
+      "emoji": "🧴",
+      "category_id": 4
+    },
+    {
+      "id": 13,
+      "name": "Protetor solar facial FPS 60",
+      "description": "Toque seco, 50ml.",
+      "price": 69.9,
+      "stock": 40,
+      "emoji": "☀️",
+      "category_id": 4
+    },
+    {
+      "id": 14,
+      "name": "Sérum facial antissinais 30ml",
+      "description": "Uso noturno.",
+      "price": 99.9,
+      "stock": 20,
+      "emoji": "✨",
+      "category_id": 4
+    },
+    {
+      "id": 15,
+      "name": "Sabonete líquido 300ml",
+      "description": "Refrescante, uso diário.",
+      "price": 12.9,
+      "stock": 49,
+      "emoji": "🧼",
+      "category_id": 5
+    },
+    {
+      "id": 16,
+      "name": "Creme dental 90g",
+      "description": "Proteção contra cáries.",
+      "price": 7.9,
+      "stock": 99,
+      "emoji": "🦷",
+      "category_id": 5,
+      "image": ""
+    },
+    {
+      "id": 17,
+      "name": "Desodorante roll-on 50ml",
+      "description": "48 horas de proteção.",
+      "price": 13.5,
+      "stock": 110,
+      "emoji": "🌿",
+      "category_id": 5
+    },
+    {
+      "id": 18,
+      "name": "Escova de dente macia",
+      "description": "Cerdas macias, 2 unidades.",
+      "price": 11.9,
+      "stock": 90,
+      "emoji": "🪥",
+      "category_id": 5
+    },
+    {
+      "id": 21,
+      "name": "Dipirona",
+      "description": "",
+      "price": 5.99,
+      "stock": 9,
+      "emoji": "💊",
+      "category_id": 1
+    },
+    {
+      "id": 22,
+      "name": "Dipirona",
+      "description": "",
+      "price": 7,
+      "stock": 17,
+      "emoji": "💊",
+      "category_id": 1,
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ-jZ40loNWRRuSjH02m1miQyTkUo8PLut523OfnORoUJvzS2wXHX51VyoIcjqmmqYUhABQFIy3pJvHcKqLhR_RzgV-Qi7WK3MW6qsFZmKQ4v4BwBpDkCps"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "total": 65.34,
+      "shipping": 12.9,
+      "method": "pix",
+      "installments": 1,
+      "status": "Pago",
+      "address": "av. prato quente são paulo",
+      "created_at": "2026-11-19T09:31:07.741Z",
+      "items": [
+        {
+          "product_id": 15,
+          "name": "Sabonete líquido 300ml",
+          "price": 12.9,
+          "qty": 1
+        },
+        {
+          "product_id": 2,
+          "name": "Ibuprofeno 400mg, 20 cápsulas",
+          "price": 22.5,
+          "qty": 1
+        },
+        {
+          "product_id": 4,
+          "name": "Soro fisiológico 500ml",
+          "price": 9.9,
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "total": 32.85,
+      "shipping": 12.9,
+      "method": "pix",
+      "installments": 1,
+      "status": "Pago",
+      "address": "dsalkfjalsdkfj",
+      "payToken": "7b5a2ed0378bf4840b1365cdb12599ea",
+      "created_at": "2026-11-19T09:59:13.379Z",
+      "items": [
+        {
+          "product_id": 22,
+          "name": "Dipirona",
+          "price": 7,
+          "qty": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "total": 18.59,
+      "shipping": 12.9,
+      "method": "pix",
+      "installments": 1,
+      "status": "Pago",
+      "address": "Alameda das Rosas, Setor Ponta Kayana, Trindade/GO, CEP 75384-155",
+      "payToken": "ef0de87341caab79df05520c2b3b0bf2",
+      "created_at": "2026-11-19T14:14:01.250Z",
+      "items": [
+        {
+          "product_id": 21,
+          "name": "Dipirona",
+          "price": 5.99,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "total": 32.66,
+      "shipping": 12.9,
+      "method": "pix",
+      "installments": 1,
+      "status": "Pago",
+      "address": "Alameda das Rosas, Setor Ponta Kayana, Trindade/GO, CEP 75384-155",
+      "payToken": "8d671b07e9397bd23d0072377eef68a6",
+      "created_at": "2026-11-19T14:33:10.995Z",
+      "items": [
+        {
+          "product_id": 16,
+          "name": "Creme dental 90g",
+          "price": 7.9,
+          "qty": 1
+        },
+        {
+          "product_id": 15,
+          "name": "Sabonete líquido 300ml",
+          "price": 12.9,
+          "qty": 1
+        }
+      ]
+    }
+  ],
+  "banners": [
+    {
+      "id": 1,
+      "title": "Cuidado em até uma hora",
+      "text": "Medicamentos e itens de saúde com entrega rápida na sua porta.",
+      "image": "",
+      "category_id": 1
+    },
+    {
+      "id": 2,
+      "title": "Vitaminas para a rotina",
+      "text": "Vitamina D, C e ômega 3 com 5% off no Pix.",
+      "image": "",
+      "category_id": 2
+    },
+    {
+      "id": 3,
+      "title": "Tudo para o bebê",
+      "text": "Fraldas, lenços e pomadas para cada fase.",
+      "image": "",
+      "category_id": 3
+    },
+    {
+      "id": 4,
+      "title": "Pele protegida o ano todo",
+      "text": "Protetor solar, hidratantes e séruns.",
+      "image": "",
+      "category_id": 4
+    }
+  ],
+  "settings": {
+    "phone": "6240028922"
+  }
+}
